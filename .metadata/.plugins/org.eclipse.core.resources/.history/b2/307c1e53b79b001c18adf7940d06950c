@@ -1,0 +1,16 @@
+package teste1;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+	
+       
+		Soma c = new Soma();
+		c.add();
+	
+		System.out.println("a soma é ");
+		
+		
+	}
+
+}

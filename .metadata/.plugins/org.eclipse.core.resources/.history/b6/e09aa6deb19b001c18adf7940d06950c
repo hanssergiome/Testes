@@ -1,0 +1,16 @@
+package teste1;
+
+public class calculadora {
+
+	
+	public void soma() {
+		
+		System.out.println("digite o primeiro numero");
+		
+		
+	}
+	
+	
+	
+	
+}

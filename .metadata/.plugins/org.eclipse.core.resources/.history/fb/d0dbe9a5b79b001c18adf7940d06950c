@@ -1,0 +1,42 @@
+package teste1;
+
+import java.util.Scanner;
+
+public class Calculos {
+
+	int a;
+	int b;
+	int soma;
+	Scanner scan = new Scanner(System.in);
+	
+public void add() {
+        
+		
+		System.out.println("digite o primeiro numero");
+		a = scan.nextInt() ;
+	
+		System.out.println("digite o segundo numero");
+		b = scan.nextInt() ;
+		soma = a+b;
+
+		scan.close();
+
+		
+	}
+
+public void subtract() {
+	
+	System.out.println("digite o primeiro numero");
+	a = scan.nextInt() ;
+
+	System.out.println("digite o segundo numero");
+	b = scan.nextInt() ;
+	soma = a+b;
+
+	scan.close();
+	
+}
+
+
+	
+}

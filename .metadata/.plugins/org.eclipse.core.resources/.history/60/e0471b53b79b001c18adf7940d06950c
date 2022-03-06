@@ -1,0 +1,27 @@
+package teste1;
+
+import java.util.Scanner;
+
+public class Soma {
+
+	
+public void add() {
+        
+		
+		int a;
+		int b;
+		int soma;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("digite o primeiro numero");
+		a = scan.nextInt() ;
+	
+		System.out.println("digite o segundo numero");
+		b = scan.nextInt() ;
+		soma = a+b;
+
+		scan.close();
+
+		
+	}
+	
+}

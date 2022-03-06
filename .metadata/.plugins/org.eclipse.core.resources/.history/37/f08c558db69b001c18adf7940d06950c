@@ -1,0 +1,15 @@
+package teste1;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+	
+       
+		Calculos c = new Calculos();
+		
+		System.out.println("a soma é " +c );
+		
+		
+	}
+
+}

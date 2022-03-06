@@ -1,0 +1,17 @@
+package teste1;
+
+public class Calculos {
+
+	public void add() {
+
+		System.out.println("digite o primeiro numero");
+
+	}
+
+	public void subtract() {
+
+		System.out.println("digite o primeiro numero");
+		
+	}
+
+}
