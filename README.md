@@ -1,1 +1,1 @@
-# Repositório para programas testes, exercitar meus conhecimentos
+# Repositório para programas testes, onde exercito meus conhecimentos
