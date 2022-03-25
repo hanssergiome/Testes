@@ -11,6 +11,7 @@ public class EndofTheFile {
 	        	String s=sc.nextLine();
 	        	System.out.println(i + " " + s);
 	        	i++;
+	        	System.out.println("teste");
 	        }
 
 	}
