@@ -1,4 +1,4 @@
-!SESSION 2022-03-30 20:26:49.253 -----------------------------------------------
+!SESSION 2022-03-31 23:47:48.809 -----------------------------------------------
 eclipse.buildId=4.23.0.I20220308-0310
 java.version=17.0.2
 java.vendor=Azul Systems, Inc.
@@ -7,9 +7,468 @@ Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
 This is a continuation of log file C:\Users\Hans\Desktop\Testes\.metadata\.bak_0.log
-Created Time: 2022-03-30 20:27:07.868
+Created Time: 2022-03-31 23:48:46.348
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.868
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.348
+!MESSAGE Unable to register language [coffeescript]
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.createEditorDescriptor(LanguagesService.java:1198)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.register(LanguagesService.java:728)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.populateEditorsOnStartup(LanguagesService.java:380)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.ui.internal.registry.EditorRegistry.initializeFromStorage(EditorRegistry.java:546)
+	at org.eclipse.ui.internal.registry.EditorRegistry.<init>(EditorRegistry.java:191)
+	at org.eclipse.ui.internal.WorkbenchPlugin$15.compute(WorkbenchPlugin.java:1367)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:263)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:584)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getEditorRegistry(WorkbenchPlugin.java:464)
+	at org.eclipse.ui.internal.Workbench.getEditorRegistry(Workbench.java:1499)
+	at com.genuitec.eclipse.code.ui.FixOpenEditorsInPerspective.<init>(FixOpenEditorsInPerspective.java:91)
+	at com.genuitec.eclipse.code.ui.FixOpenEditorsInPerspective.startup(FixOpenEditorsInPerspective.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.ui.internal.WorkbenchPage.createEditorReferenceForPart(WorkbenchPage.java:1080)
+	at org.eclipse.ui.internal.WorkbenchPage.setup(WorkbenchPage.java:2651)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:96)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:83)
+	at org.eclipse.ui.internal.WorkbenchWindow.setup(WorkbenchWindow.java:824)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:96)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:83)
+	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1469)
+	at org.eclipse.ui.internal.Workbench.openWorkbenchWindow(Workbench.java:2472)
+	at org.eclipse.ui.internal.Workbench.getWorkbenchPage(Workbench.java:1943)
+	at org.eclipse.ui.internal.Workbench.setReference(Workbench.java:1988)
+	at org.eclipse.ui.internal.Workbench.lambda$10(Workbench.java:1879)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl.setContext(PartImpl.java:469)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:634)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.355
+!MESSAGE Unable to register language [c]
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.createEditorDescriptor(LanguagesService.java:1198)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.register(LanguagesService.java:728)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.populateEditorsOnStartup(LanguagesService.java:380)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.ui.internal.registry.EditorRegistry.initializeFromStorage(EditorRegistry.java:546)
+	at org.eclipse.ui.internal.registry.EditorRegistry.<init>(EditorRegistry.java:191)
+	at org.eclipse.ui.internal.WorkbenchPlugin$15.compute(WorkbenchPlugin.java:1367)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:263)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:584)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getEditorRegistry(WorkbenchPlugin.java:464)
+	at org.eclipse.ui.internal.Workbench.getEditorRegistry(Workbench.java:1499)
+	at com.genuitec.eclipse.code.ui.FixOpenEditorsInPerspective.<init>(FixOpenEditorsInPerspective.java:91)
+	at com.genuitec.eclipse.code.ui.FixOpenEditorsInPerspective.startup(FixOpenEditorsInPerspective.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.ui.internal.WorkbenchPage.createEditorReferenceForPart(WorkbenchPage.java:1080)
+	at org.eclipse.ui.internal.WorkbenchPage.setup(WorkbenchPage.java:2651)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:96)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:83)
+	at org.eclipse.ui.internal.WorkbenchWindow.setup(WorkbenchWindow.java:824)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:96)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:83)
+	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1469)
+	at org.eclipse.ui.internal.Workbench.openWorkbenchWindow(Workbench.java:2472)
+	at org.eclipse.ui.internal.Workbench.getWorkbenchPage(Workbench.java:1943)
+	at org.eclipse.ui.internal.Workbench.setReference(Workbench.java:1988)
+	at org.eclipse.ui.internal.Workbench.lambda$10(Workbench.java:1879)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl.setContext(PartImpl.java:469)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:634)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.366
+!MESSAGE Unable to register language [objective-cpp]
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.createEditorDescriptor(LanguagesService.java:1198)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.register(LanguagesService.java:728)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.populateEditorsOnStartup(LanguagesService.java:380)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.ui.internal.registry.EditorRegistry.initializeFromStorage(EditorRegistry.java:546)
+	at org.eclipse.ui.internal.registry.EditorRegistry.<init>(EditorRegistry.java:191)
+	at org.eclipse.ui.internal.WorkbenchPlugin$15.compute(WorkbenchPlugin.java:1367)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:263)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:584)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getEditorRegistry(WorkbenchPlugin.java:464)
+	at org.eclipse.ui.internal.Workbench.getEditorRegistry(Workbench.java:1499)
+	at com.genuitec.eclipse.code.ui.FixOpenEditorsInPerspective.<init>(FixOpenEditorsInPerspective.java:91)
+	at com.genuitec.eclipse.code.ui.FixOpenEditorsInPerspective.startup(FixOpenEditorsInPerspective.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.ui.internal.WorkbenchPage.createEditorReferenceForPart(WorkbenchPage.java:1080)
+	at org.eclipse.ui.internal.WorkbenchPage.setup(WorkbenchPage.java:2651)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:96)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:83)
+	at org.eclipse.ui.internal.WorkbenchWindow.setup(WorkbenchWindow.java:824)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:96)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:83)
+	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1469)
+	at org.eclipse.ui.internal.Workbench.openWorkbenchWindow(Workbench.java:2472)
+	at org.eclipse.ui.internal.Workbench.getWorkbenchPage(Workbench.java:1943)
+	at org.eclipse.ui.internal.Workbench.setReference(Workbench.java:1988)
+	at org.eclipse.ui.internal.Workbench.lambda$10(Workbench.java:1879)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl.setContext(PartImpl.java:469)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:634)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.370
 !MESSAGE Unable to register language [ini]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -162,7 +621,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.870
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.371
 !MESSAGE Unable to register language [dockerfile]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -315,7 +774,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.871
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.373
 !MESSAGE Unable to register language [go]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -468,7 +927,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.872
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.374
 !MESSAGE Unable to register language [plaintext]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -621,7 +1080,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.874
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.376
 !MESSAGE Unable to register language [shellscript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -774,7 +1233,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.875
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.386
 !MESSAGE Unable to register language [hlsl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -927,7 +1386,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.877
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.394
 !MESSAGE Unable to register language [ruby]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1080,7 +1539,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.879
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.397
 !MESSAGE Unable to register language [jsonc]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1233,7 +1692,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.881
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.422
 !MESSAGE Unable to register language [r]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1386,7 +1845,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.882
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.437
 !MESSAGE Unable to register language [lua]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1539,7 +1998,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.889
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.487
 !MESSAGE Unable to register language [php]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1692,7 +2151,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.891
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.488
 !MESSAGE Unable to register language [properties]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1845,7 +2304,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.893
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.490
 !MESSAGE Unable to register language [perl6]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1998,7 +2457,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:07.894
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:48:46.492
 !MESSAGE Cannot invoke "java.lang.reflect.Field.get(Object)" because "this._editorReferenceActionCache" is null
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Object)" because "this._editorReferenceActionCache" is null
@@ -2150,29 +2609,26 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Objec
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.egit.ui 2 0 2022-03-30 20:27:18.707
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-31 23:49:04.631
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Hans'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY com.genuitec.eclipse.code.core 1 0 2022-03-30 20:27:37.609
-!MESSAGE Initializing CodeMix Engine's settings file at C:\Users\Hans\Desktop\Testes\.metadata\codemix.code-workspace
-
-!ENTRY com.genuitec.eclipse.code.core 1 0 2022-03-30 20:27:37.627
+!ENTRY com.genuitec.eclipse.code.core 1 0 2022-03-31 23:50:12.399
 !MESSAGE Verifying CodeMix Engine runtime integrity...
 
-!ENTRY com.genuitec.eclipse.code.core 1 0 2022-03-30 20:27:37.637
+!ENTRY com.genuitec.eclipse.code.core 1 0 2022-03-31 23:50:12.419
 !MESSAGE IntegrityCheck: Artifacts located at: [C:\Users\Hans\.p2\pool\artifacts.xml]
 
-!ENTRY com.genuitec.eclipse.code.core 1 0 2022-03-30 20:27:37.792
+!ENTRY com.genuitec.eclipse.code.core 1 0 2022-03-31 23:50:12.664
 !MESSAGE Integrity check PASSED
 
-!ENTRY com.genuitec.eclipse.code.core 4 0 2022-03-30 20:27:38.141
-!MESSAGE Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @6eede35e
+!ENTRY com.genuitec.eclipse.code.core 4 0 2022-03-31 23:50:14.433
+!MESSAGE Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @7aae1170
 !STACK 0
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @6eede35e
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @7aae1170
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
@@ -2185,7 +2641,127 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at com.genuitec.eclipse.code.ui.EngineStartupHandler$1.run(EngineStartupHandler.java:124)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.625
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:50:34.460
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl$CodeMixNoticeControl.refresh(CodeMixNoticeStatusBarControl.java:107)
+	at com.genuitec.eclipse.code.ui.notice.NoticeService$1.runInUIThread(NoticeService.java:69)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:50:34.466
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl$CodeMixNoticeControl.refresh(CodeMixNoticeStatusBarControl.java:107)
+	at com.genuitec.eclipse.code.ui.notice.NoticeService$1.runInUIThread(NoticeService.java:69)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:50:34.467
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl$CodeMixNoticeControl.refresh(CodeMixNoticeStatusBarControl.java:107)
+	at com.genuitec.eclipse.code.ui.notice.NoticeService$1.runInUIThread(NoticeService.java:69)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.621
 !MESSAGE Unable to register language [Log]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2233,7 +2809,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.626
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.623
 !MESSAGE Unable to register language [log]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2281,7 +2857,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.630
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.625
 !MESSAGE Unable to register language [json]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2329,7 +2905,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.632
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.645
 !MESSAGE Unable to register language [dockerfile]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2377,7 +2953,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.640
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.648
 !MESSAGE Unable to register language [bat]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2425,7 +3001,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.641
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.650
 !MESSAGE Unable to register language [clojure]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2473,7 +3049,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.642
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.651
 !MESSAGE Unable to register language [coffeescript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2521,7 +3097,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.643
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.653
 !MESSAGE Unable to register language [jsonc]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2569,7 +3145,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.644
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.669
 !MESSAGE Unable to register language [c]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2617,7 +3193,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.645
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.672
 !MESSAGE Unable to register language [cpp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2665,7 +3241,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.645
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.675
 !MESSAGE Unable to register language [csharp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2713,7 +3289,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.646
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.677
 !MESSAGE Unable to register language [css]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2761,7 +3337,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.647
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.678
 !MESSAGE Unable to register language [code-runner-output]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2809,7 +3385,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.648
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.679
 !MESSAGE Unable to register language [fsharp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2857,7 +3433,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.651
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.686
 !MESSAGE Unable to register language [go]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2905,7 +3481,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.652
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.687
 !MESSAGE Unable to register language [go.mod]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2953,7 +3529,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.653
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.688
 !MESSAGE Unable to register language [go.sum]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3001,7 +3577,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.654
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.689
 !MESSAGE Unable to register language [groovy]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3049,7 +3625,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.655
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.690
 !MESSAGE Unable to register language [handlebars]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3097,7 +3673,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.656
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.691
 !MESSAGE Unable to register language [hlsl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3145,7 +3721,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.656
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.692
 !MESSAGE Unable to register language [html]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3193,7 +3769,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.657
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.693
 !MESSAGE Unable to register language [ini]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3241,7 +3817,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.658
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.694
 !MESSAGE Unable to register language [properties]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3289,7 +3865,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.661
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.695
 !MESSAGE Unable to register language [java]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3337,7 +3913,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.662
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.696
 !MESSAGE Unable to register language [javascriptreact]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3385,7 +3961,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.686
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.698
 !MESSAGE Unable to register language [javascript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3433,7 +4009,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.686
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.921
 !MESSAGE Unable to register language [jsx-tags]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3481,7 +4057,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.688
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.923
 !MESSAGE Unable to register language [less]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3529,7 +4105,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.689
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.924
 !MESSAGE Unable to register language [lua]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3577,7 +4153,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.690
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.940
 !MESSAGE Unable to register language [makefile]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3625,7 +4201,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.691
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.943
 !MESSAGE Unable to register language [markdown]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3673,7 +4249,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.694
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.944
 !MESSAGE Unable to register language [objective-c]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3721,7 +4297,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.695
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.945
 !MESSAGE Unable to register language [objective-cpp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3769,7 +4345,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.699
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.947
 !MESSAGE Unable to register language [perl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3817,7 +4393,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.703
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.949
 !MESSAGE Unable to register language [perl6]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3865,7 +4441,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.704
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.959
 !MESSAGE Unable to register language [php]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3913,7 +4489,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.709
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.961
 !MESSAGE Unable to register language [powershell]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3961,7 +4537,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.710
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.962
 !MESSAGE Unable to register language [jade]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4009,7 +4585,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.712
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.963
 !MESSAGE Unable to register language [python]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4057,7 +4633,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.718
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.964
 !MESSAGE Unable to register language [r]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4105,7 +4681,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.722
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.965
 !MESSAGE Unable to register language [razor]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4153,7 +4729,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.724
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.966
 !MESSAGE Unable to register language [sass]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4201,7 +4777,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.739
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.967
 !MESSAGE Unable to register language [ruby]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4249,7 +4825,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.742
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.968
 !MESSAGE Unable to register language [rust]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4297,7 +4873,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.744
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.979
 !MESSAGE Unable to register language [scss]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4345,7 +4921,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.751
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.981
 !MESSAGE Unable to register language [shaderlab]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4393,7 +4969,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.753
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.983
 !MESSAGE Unable to register language [shellscript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4441,7 +5017,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.754
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.984
 !MESSAGE Unable to register language [sql]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4489,7 +5065,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.755
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.986
 !MESSAGE Unable to register language [swift]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4537,7 +5113,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.758
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:36.987
 !MESSAGE Unable to register language [typescript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4585,7 +5161,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.761
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.002
 !MESSAGE Unable to register language [typescriptreact]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4633,7 +5209,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.762
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.020
 !MESSAGE Unable to register language [vb]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4681,7 +5257,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.769
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.028
 !MESSAGE Unable to register language [vue]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4729,7 +5305,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.770
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.029
 !MESSAGE Unable to register language [vue-html]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4777,7 +5353,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.771
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.031
 !MESSAGE Unable to register language [vue-postcss]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4825,7 +5401,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.782
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.154
 !MESSAGE Unable to register language [xml]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4873,7 +5449,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.790
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.155
 !MESSAGE Unable to register language [xsl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4921,7 +5497,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.791
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.156
 !MESSAGE Unable to register language [yaml]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4969,13 +5545,13 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:27:45.844
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:50:37.291
 !MESSAGE Unable to register supported languages as EditorDescriptor service utilities are not available
 
-!ENTRY com.genuitec.eclipse.code.core 4 0 2022-03-30 20:27:47.552
-!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @a57751c
+!ENTRY com.genuitec.eclipse.code.core 4 0 2022-03-31 23:50:38.720
+!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @78800e97
 !STACK 0
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @a57751c
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @78800e97
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
@@ -5033,10 +5609,10 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.core 4 0 2022-03-30 20:27:47.692
-!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @a57751c
+!ENTRY com.genuitec.eclipse.code.core 4 0 2022-03-31 23:50:38.776
+!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @78800e97
 !STACK 0
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @a57751c
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @78800e97
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
@@ -5094,10 +5670,10 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.core 4 0 2022-03-30 20:27:50.336
-!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @a57751c
+!ENTRY com.genuitec.eclipse.code.core 4 0 2022-03-31 23:50:39.510
+!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @78800e97
 !STACK 0
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @a57751c
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @78800e97
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
@@ -5155,7 +5731,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY org.eclipse.core.jobs 4 2 2022-03-30 20:27:50.828
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-31 23:50:42.538
 !MESSAGE An internal error occurred during: "Store supported languages".
 !STACK 0
 java.lang.NullPointerException: Cannot enter synchronized block because "this.supportedLanguages" is null
@@ -5163,318 +5739,10 @@ java.lang.NullPointerException: Cannot enter synchronized block because "this.su
 	at com.genuitec.eclipse.code.ui.languages.LanguagesService$2.run(LanguagesService.java:315)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:27:51.272
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
-	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl$CodeMixNoticeControl.refresh(CodeMixNoticeStatusBarControl.java:107)
-	at com.genuitec.eclipse.code.ui.notice.NoticeService$1.runInUIThread(NoticeService.java:69)
-	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:27:51.273
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
-	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl$CodeMixNoticeControl.refresh(CodeMixNoticeStatusBarControl.java:107)
-	at com.genuitec.eclipse.code.ui.notice.NoticeService$1.runInUIThread(NoticeService.java:69)
-	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:27:52.860
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
-	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl.<init>(CodeMixNoticeStatusBarControl.java:136)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarControl.<init>(CodeStatusBarControl.java:98)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarContribution.createControl(CodeStatusBarContribution.java:26)
-	at org.eclipse.jface.action.ControlContribution.fill(ControlContribution.java:85)
-	at org.eclipse.jface.action.StatusLineManager.update(StatusLineManager.java:313)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarManager.setupWindow(CodeStatusBarManager.java:221)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarManager$2.windowOpened(CodeStatusBarManager.java:98)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarManager.lambda$0(CodeStatusBarManager.java:123)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:30:34.732
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
-	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.webicons.WebIcon.createImage(WebIcon.java:72)
-	at com.genuitec.eclipse.code.ui.welcome.internal.WindowsDefenderWarningContent.createTitle(WindowsDefenderWarningContent.java:35)
-	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:69)
-	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
-	at com.genuitec.eclipse.code.ui.welcome.internal.WindowsDefenderCheckService$1.runInUIThread(WindowsDefenderCheckService.java:66)
-	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:30:34.733
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
-	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.webicons.WebIcon.createImage(WebIcon.java:72)
-	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:51)
-	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
-	at com.genuitec.eclipse.code.ui.welcome.internal.WindowsDefenderCheckService$1.runInUIThread(WindowsDefenderCheckService.java:66)
-	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:32:31.807
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
-	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl$CodeMixNoticeControl.refresh(CodeMixNoticeStatusBarControl.java:107)
-	at com.genuitec.eclipse.code.ui.notice.NoticeService$1.runInUIThread(NoticeService.java:69)
-	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:32:59.108
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
-	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl.<init>(CodeMixNoticeStatusBarControl.java:136)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarControl.<init>(CodeStatusBarControl.java:98)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarContribution.createControl(CodeStatusBarContribution.java:26)
-	at org.eclipse.jface.action.ControlContribution.fill(ControlContribution.java:85)
-	at org.eclipse.jface.action.StatusLineManager.update(StatusLineManager.java:313)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarManager.setupWindow(CodeStatusBarManager.java:221)
-	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarManager$2.windowOpened(CodeStatusBarManager.java:98)
-	at org.eclipse.ui.internal.Workbench$6.run(Workbench.java:968)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.fireWindowOpened(Workbench.java:965)
-	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1481)
-	at org.eclipse.ui.internal.Workbench.openWorkbenchWindow(Workbench.java:2472)
-	at org.eclipse.ui.internal.Workbench.openWorkbenchWindow(Workbench.java:2464)
-	at org.eclipse.ui.actions.OpenInNewWindowAction.run(OpenInNewWindowAction.java:105)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.debug.ui 4 0 2022-03-30 20:45:46.762
+!ENTRY org.eclipse.debug.ui 4 0 2022-03-31 23:52:23.808
 !MESSAGE Launch shortcut 'com.genuitec.eclipse.code.debug.codeMixLaunchShortcut' enablement expression caused exception. Shortcut was removed.
 !STACK 1
-org.eclipse.core.runtime.CoreException: Error evaluating Property [com.genuitec.eclipse.code.debug.isLanguageSupported, type=class org.eclipse.core.internal.resources.File, tester=com.genuitec.eclipse.code.debug.ShortcutPropertyTester@476faa9a]
+org.eclipse.core.runtime.CoreException: Error evaluating Property [com.genuitec.eclipse.code.debug.isLanguageSupported, type=class org.eclipse.core.internal.resources.File, tester=com.genuitec.eclipse.code.debug.ShortcutPropertyTester@52593a99]
 	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
 	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
 	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
@@ -5488,21 +5756,63 @@ org.eclipse.core.runtime.CoreException: Error evaluating Property [com.genuitec.
 	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
 	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
 	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:280)
-	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableConfigurationTypes(LaunchConfigurationManager.java:727)
-	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableLaunchConfigurations(LaunchConfigurationManager.java:765)
-	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getParticipatingLaunchConfigurations(LaunchingResourceManager.java:507)
-	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:326)
-	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:246)
-	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:144)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:283)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:224)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:137)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1192)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1172)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1135)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 Caused by: java.lang.NullPointerException: Cannot invoke "java.util.Collection.size()" because "c" is null
 	at java.base/java.util.HashSet.<init>(HashSet.java:120)
 	at com.genuitec.eclipse.code.ui.languages.LanguagesService.getSupportedLanguages(LanguagesService.java:417)
 	at com.genuitec.eclipse.code.debug.ShortcutPropertyTester.test(ShortcutPropertyTester.java:33)
 	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
-	... 19 more
-!SUBENTRY 1 org.eclipse.core.expressions 4 0 2022-03-30 20:45:46.762
-!MESSAGE Error evaluating Property [com.genuitec.eclipse.code.debug.isLanguageSupported, type=class org.eclipse.core.internal.resources.File, tester=com.genuitec.eclipse.code.debug.ShortcutPropertyTester@476faa9a]
+	... 61 more
+!SUBENTRY 1 org.eclipse.core.expressions 4 0 2022-03-31 23:52:23.808
+!MESSAGE Error evaluating Property [com.genuitec.eclipse.code.debug.isLanguageSupported, type=class org.eclipse.core.internal.resources.File, tester=com.genuitec.eclipse.code.debug.ShortcutPropertyTester@52593a99]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.util.Collection.size()" because "c" is null
 	at java.base/java.util.HashSet.<init>(HashSet.java:120)
@@ -5521,37 +5831,34 @@ java.lang.NullPointerException: Cannot invoke "java.util.Collection.size()" beca
 	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
 	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
 	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:280)
-	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableConfigurationTypes(LaunchConfigurationManager.java:727)
-	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableLaunchConfigurations(LaunchConfigurationManager.java:765)
-	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getParticipatingLaunchConfigurations(LaunchingResourceManager.java:507)
-	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:326)
-	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:246)
-	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:144)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:45:46.989
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
-	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.createContent(ClickableComposite.java:50)
-	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:40)
-	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
-	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
-	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
-	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$1(CodeWelcomeStartup.java:333)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:283)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:224)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:137)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1192)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1172)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1135)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
@@ -5574,91 +5881,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:45:46.990
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Cursor.<init>(Cursor.java:119)
-	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:35)
-	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
-	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
-	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
-	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$1(CodeWelcomeStartup.java:333)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-03-30 20:45:46.991
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
-	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at com.genuitec.eclipse.code.webicons.WebIcon.createImage(WebIcon.java:72)
-	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:51)
-	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
-	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
-	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$1(CodeWelcomeStartup.java:333)
-	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-30 20:46:41.515
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-03-31 23:54:46.632
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.code.ui.CodeUI.stop() of bundle com.genuitec.eclipse.code.ui.
@@ -5707,3 +5930,543 @@ java.lang.NullPointerException: Cannot enter synchronized block because "this.su
 	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-03-31 23:54:51.465
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.code.core.extensions.ExtensionsService$2
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.776
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl.<init>(CodeMixNoticeStatusBarControl.java:136)
+	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarControl.<init>(CodeStatusBarControl.java:98)
+	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarContribution.createControl(CodeStatusBarContribution.java:26)
+	at org.eclipse.jface.action.ControlContribution.fill(ControlContribution.java:85)
+	at org.eclipse.jface.action.StatusLineManager.update(StatusLineManager.java:313)
+	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarManager.setupWindow(CodeStatusBarManager.java:221)
+	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarManager$2.windowOpened(CodeStatusBarManager.java:98)
+	at com.genuitec.eclipse.code.ui.statusbar.CodeStatusBarManager.lambda$0(CodeStatusBarManager.java:123)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.779
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.DeferredImageDescriptor.createImage(DeferredImageDescriptor.java:80)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:230)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.LazyResourceManager.create(LazyResourceManager.java:97)
+	at org.eclipse.jface.resource.LocalResourceManager.allocate(LocalResourceManager.java:72)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImage(ResourceManager.java:175)
+	at org.eclipse.ui.actions.OpenWithMenu.getImage(OpenWithMenu.java:137)
+	at org.eclipse.ui.actions.OpenWithMenu.createMenuItem(OpenWithMenu.java:174)
+	at org.eclipse.ui.actions.OpenWithMenu.fill(OpenWithMenu.java:271)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:729)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:806)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:673)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1227)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processContents(MenuManagerRenderer.java:655)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeTopicChildAdded(MenuManagerRenderer.java:325)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:294)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:304)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.reconcileManagerToModel(MenuManagerRenderer.java:1076)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.reconcileManagerToModel(MenuManagerRenderer.java:1014)
+	at org.eclipse.ui.internal.PopupMenuExtender.addMenuContributions(PopupMenuExtender.java:379)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:355)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.780
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.createContent(ClickableComposite.java:50)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:40)
+	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.837
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.createContent(ClickableComposite.java:50)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:40)
+	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.852
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.createContent(ClickableComposite.java:50)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:40)
+	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.875
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.createContent(ClickableComposite.java:50)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:40)
+	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.877
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.createContent(ClickableComposite.java:50)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:40)
+	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.883
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.createContent(ClickableComposite.java:50)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:40)
+	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.889
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.createContent(ClickableComposite.java:50)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:40)
+	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.890
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Cursor.<init>(Cursor.java:119)
+	at com.genuitec.eclipse.code.ui.welcome.internal.ClickableComposite.<init>(ClickableComposite.java:35)
+	at com.genuitec.eclipse.code.ui.welcome.internal.WelcomePopupContent.createBody(WelcomePopupContent.java:108)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:71)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-31 23:54:51.891
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.webicons.WebIcon.createImage(WebIcon.java:72)
+	at com.genuitec.eclipse.intro.popups.content.TitledContent.createContents(TitledContent.java:51)
+	at com.genuitec.eclipse.intro.popups.service.Popup.<init>(Popup.java:78)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:157)
+	at com.genuitec.eclipse.intro.popups.service.PopupService.showPopup(PopupService.java:103)
+	at com.genuitec.eclipse.code.ui.welcome.CodeWelcomeStartup.lambda$2(CodeWelcomeStartup.java:336)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
