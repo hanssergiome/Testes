@@ -8,10 +8,10 @@ public class SyntaxChecker {
 	
 	
 	public static void main(String[] args){
-		Scanner in = new Scanner(System.in);
-		int testCases = Integer.parseInt(in.nextLine());
+		Scanner sc = new Scanner(System.in);
+		int testCases = Integer.parseInt(sc.nextLine());
 		while(testCases>0){
-			String pattern = in.nextLine();
+			String pattern = sc.nextLine();
 
               try {
                 Pattern.compile(pattern);
@@ -20,7 +20,7 @@ public class SyntaxChecker {
                 System.out.println("Invalid");
             }
             testCases--;
-            in.close();
+            sc.close();
 		}
 	}
 }
