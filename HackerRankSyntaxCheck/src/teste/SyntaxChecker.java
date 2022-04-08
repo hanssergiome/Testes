@@ -8,11 +8,11 @@ public class SyntaxChecker {
 	
 	
 	public static void main(String[] args){
-		Scanner in = new Scanner(System.in);
-		int testCases = Integer.parseInt(in.nextLine());
+		Scanner sc = new Scanner(System.in);
+		int testCases = Integer.parseInt(sc.nextLine());
 		while(testCases>0){
-			String pattern = in.nextLine();
-          	//Write your code
+			String pattern = sc.nextLine();
+
               try {
                 Pattern.compile(pattern);
                 System.out.println("Valid");
@@ -21,7 +21,7 @@ public class SyntaxChecker {
                 System.out.println("não");
             }
             testCases--;
-            in.close();
+            sc.close();
 		}
 	}
 }
