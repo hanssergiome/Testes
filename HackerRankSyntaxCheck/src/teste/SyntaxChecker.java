@@ -18,6 +18,7 @@ public class SyntaxChecker {
                 System.out.println("Valid");
             } catch (PatternSyntaxException e) {
                 System.out.println("Invalid");
+                System.out.println("não");
             }
             testCases--;
             in.close();
