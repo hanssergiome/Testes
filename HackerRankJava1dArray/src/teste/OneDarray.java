@@ -28,7 +28,7 @@ public class OneDarray {
 				System.out.println("ERROR!");
 			} else {
 				System.out.println(lines.get(x - 1).get(y - 1));
-				System.out.println("");
+		
 			}
 		}
 
