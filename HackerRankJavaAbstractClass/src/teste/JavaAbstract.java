@@ -28,8 +28,8 @@ import java.util.Scanner;
 			MyBook new_novel=new MyBook();
 			new_novel.setTitle(title);
 			System.out.println("The title is: "+new_novel.getTitle());
-			System.out.println();
 	      	sc.close();
+	      	
 			
 		}
 	}
