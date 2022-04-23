@@ -27,7 +27,7 @@ import java.util.Scanner;
 			String title=sc.nextLine();
 			MyBook new_novel=new MyBook();
 			new_novel.setTitle(title);
-			System.out.println("The title is: "+new_novel.getTitle());
+			System.out.println("The Title Is: "+new_novel.getTitle());
 	      	sc.close();
 	      	
 			

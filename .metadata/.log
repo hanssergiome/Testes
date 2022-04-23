@@ -1,4 +1,4 @@
-!SESSION 2022-04-20 23:38:24.617 -----------------------------------------------
+!SESSION 2022-04-22 23:22:31.451 -----------------------------------------------
 eclipse.buildId=4.23.0.I20220308-0310
 java.version=17.0.2
 java.vendor=Azul Systems, Inc.
@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
 This is a continuation of log file C:\Users\Hans\Desktop\Testes\.metadata\.bak_0.log
-Created Time: 2022-04-20 23:45:50.634
+Created Time: 2022-04-22 23:23:48.790
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.634
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.805
 !MESSAGE Unable to register language [groovy]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -162,7 +162,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.636
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.810
 !MESSAGE Unable to register language [razor]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -315,7 +315,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.637
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.812
 !MESSAGE Unable to register language [log]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -468,7 +468,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.639
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.814
 !MESSAGE Unable to register language [clojure]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -621,7 +621,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.640
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.838
 !MESSAGE Unable to register language [jade]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -774,7 +774,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.641
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.840
 !MESSAGE Unable to register language [sql]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -927,7 +927,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.643
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.842
 !MESSAGE Unable to register language [xsl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1080,7 +1080,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.644
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.844
 !MESSAGE Unable to register language [rust]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1233,7 +1233,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.645
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.845
 !MESSAGE Unable to register language [shaderlab]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1386,7 +1386,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.646
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.859
 !MESSAGE Unable to register language [fsharp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1539,7 +1539,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.648
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.862
 !MESSAGE Unable to register language [markdown]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1692,7 +1692,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.649
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.871
 !MESSAGE Unable to register language [ignore]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1845,7 +1845,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.650
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.877
 !MESSAGE Unable to register language [json]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -1998,7 +1998,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.651
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.891
 !MESSAGE Unable to register language [typescriptreact]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2151,7 +2151,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.666
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.895
 !MESSAGE Unable to register language [perl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2304,7 +2304,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.670
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.903
 !MESSAGE Unable to register language [typescript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2457,7 +2457,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.680
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.919
 !MESSAGE Unable to register language [coffeescript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2610,7 +2610,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.682
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.923
 !MESSAGE Unable to register language [c]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2763,7 +2763,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.683
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.926
 !MESSAGE Unable to register language [objective-cpp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -2916,7 +2916,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.685
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.941
 !MESSAGE Unable to register language [ini]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3069,7 +3069,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.686
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.943
 !MESSAGE Unable to register language [dockerfile]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3222,7 +3222,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.687
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.944
 !MESSAGE Unable to register language [go]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3375,7 +3375,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.689
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.947
 !MESSAGE Unable to register language [plaintext]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3528,7 +3528,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.690
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.962
 !MESSAGE Unable to register language [shellscript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3681,7 +3681,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.691
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.972
 !MESSAGE Unable to register language [hlsl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3834,7 +3834,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.693
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.974
 !MESSAGE Unable to register language [ruby]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -3987,7 +3987,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.694
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.975
 !MESSAGE Unable to register language [jsonc]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4140,7 +4140,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.696
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.977
 !MESSAGE Unable to register language [r]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4293,7 +4293,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.697
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.994
 !MESSAGE Unable to register language [lua]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4446,7 +4446,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.699
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:48.996
 !MESSAGE Unable to register language [php]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4599,7 +4599,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.701
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:49.003
 !MESSAGE Unable to register language [properties]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4752,7 +4752,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.702
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:49.005
 !MESSAGE Unable to register language [perl6]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -4905,7 +4905,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:45:50.704
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:23:49.008
 !MESSAGE Cannot invoke "java.lang.reflect.Field.get(Object)" because "this._editorReferenceActionCache" is null
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Object)" because "this._editorReferenceActionCache" is null
@@ -5057,29 +5057,26 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Objec
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.egit.ui 2 0 2022-04-20 23:45:58.250
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-22 23:24:14.982
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Hans'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY com.genuitec.eclipse.code.core 1 0 2022-04-20 23:46:14.399
+!ENTRY com.genuitec.eclipse.code.core 1 0 2022-04-22 23:25:05.961
 !MESSAGE Verifying CodeMix Engine runtime integrity...
 
-!ENTRY com.genuitec.eclipse.code.core 1 0 2022-04-20 23:46:14.404
+!ENTRY com.genuitec.eclipse.code.core 1 0 2022-04-22 23:25:05.969
 !MESSAGE IntegrityCheck: Artifacts located at: [C:\Users\Hans\.p2\pool\artifacts.xml]
 
-!ENTRY com.genuitec.eclipse.code.core 1 0 2022-04-20 23:46:14.480
+!ENTRY com.genuitec.eclipse.code.core 1 0 2022-04-22 23:25:06.375
 !MESSAGE Integrity check PASSED
 
-!ENTRY com.genuitec.eclipse.code.core 1 0 2022-04-20 23:46:14.714
-!MESSAGE Detected orphaned CodeMix engine processes; cleaning up.
-
-!ENTRY com.genuitec.eclipse.code.core 4 0 2022-04-20 23:46:20.345
-!MESSAGE Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @4ef5dd23
+!ENTRY com.genuitec.eclipse.code.core 4 0 2022-04-22 23:25:09.299
+!MESSAGE Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @7aae1170
 !STACK 0
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @4ef5dd23
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @7aae1170
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
@@ -5092,55 +5089,47 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at com.genuitec.eclipse.code.ui.EngineStartupHandler$1.run(EngineStartupHandler.java:124)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.202
-!MESSAGE Unable to register language [Log]
+!ENTRY org.eclipse.ui.ide 4 4 2022-04-22 23:25:27.713
+!MESSAGE Not properly disposed SWT resource
 !STACK 0
-java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
-	at com.genuitec.eclipse.code.ui.languages.LanguagesService.createEditorDescriptor(LanguagesService.java:1198)
-	at com.genuitec.eclipse.code.ui.languages.LanguagesService.register(LanguagesService.java:728)
-	at com.genuitec.eclipse.code.ui.languages.LanguagesService.registerLanguages(LanguagesService.java:304)
-	at com.genuitec.eclipse.code.ui.CodeService.supportedLanguagesAdded(CodeService.java:909)
-	at com.genuitec.eclipse.code.core.engine.EclipseAPI.supportedLanguagesAdded(EclipseAPI.java:439)
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.code.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:34)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.code.ui.notice.CodeMixNoticeStatusBarControl$CodeMixNoticeControl.refresh(CodeMixNoticeStatusBarControl.java:107)
+	at com.genuitec.eclipse.code.ui.notice.NoticeService$1.runInUIThread(NoticeService.java:69)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock._run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:50)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at com.genuitec.eclipse.code.core.engine.SessionHandler$RPCObjectType$1.process(SessionHandler.java:1024)
-	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
-	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
-	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
-	at org.glassfish.tyrus.core.AnnotatedEndpoint.access$100(AnnotatedEndpoint.java:87)
-	at org.glassfish.tyrus.core.AnnotatedEndpoint$WholeHandler$1.onMessage(AnnotatedEndpoint.java:633)
-	at org.glassfish.tyrus.core.TyrusSession.notifyMessageHandlers(TyrusSession.java:576)
-	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onPartialMessage(TyrusEndpointWrapper.java:977)
-	at org.glassfish.tyrus.core.TyrusWebSocket.onFragment(TyrusWebSocket.java:190)
-	at org.glassfish.tyrus.core.frame.TextFrame.respond(TextFrame.java:136)
-	at org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:807)
-	at org.glassfish.tyrus.core.TyrusWebSocketEngine$TyrusReadHandler.handle(TyrusWebSocketEngine.java:562)
-	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter$ProcessTask.execute(GrizzlyServerFilter.java:379)
-	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:114)
-	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
-	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter.handleRead(GrizzlyServerFilter.java:215)
-	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
-	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
-	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
-	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
-	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
-	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
-	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
-	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
-	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
-	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
-	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
-	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
-	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.204
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.108
 !MESSAGE Unable to register language [log]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5157,7 +5146,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5188,7 +5178,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.205
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.143
 !MESSAGE Unable to register language [json]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5205,7 +5195,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5236,7 +5227,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.206
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.145
 !MESSAGE Unable to register language [dockerfile]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5253,7 +5244,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5284,7 +5276,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.207
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.149
 !MESSAGE Unable to register language [bat]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5301,7 +5293,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5332,7 +5325,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.208
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.150
 !MESSAGE Unable to register language [clojure]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5349,7 +5342,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5380,7 +5374,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.209
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.156
 !MESSAGE Unable to register language [coffeescript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5397,7 +5391,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5428,7 +5423,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.210
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.432
 !MESSAGE Unable to register language [jsonc]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5445,7 +5440,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5476,7 +5472,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.211
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.434
 !MESSAGE Unable to register language [c]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5493,7 +5489,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5524,7 +5521,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.212
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.436
 !MESSAGE Unable to register language [cpp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5541,7 +5538,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5572,7 +5570,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.213
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.437
 !MESSAGE Unable to register language [csharp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5589,7 +5587,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5620,7 +5619,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.214
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.437
 !MESSAGE Unable to register language [css]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5637,7 +5636,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5668,7 +5668,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.215
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.438
 !MESSAGE Unable to register language [code-runner-output]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5685,7 +5685,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5716,7 +5717,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.216
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.439
 !MESSAGE Unable to register language [fsharp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5733,7 +5734,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5764,7 +5766,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.217
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.440
 !MESSAGE Unable to register language [go]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5781,7 +5783,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5812,7 +5815,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.218
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.445
 !MESSAGE Unable to register language [go.mod]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5829,7 +5832,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5860,7 +5864,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.219
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.446
 !MESSAGE Unable to register language [go.sum]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5877,7 +5881,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5908,7 +5913,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.220
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.459
 !MESSAGE Unable to register language [groovy]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5925,7 +5930,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -5956,7 +5962,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.221
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.462
 !MESSAGE Unable to register language [handlebars]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -5973,7 +5979,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6004,7 +6011,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.222
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.469
 !MESSAGE Unable to register language [hlsl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6021,7 +6028,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6052,7 +6060,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.223
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.471
 !MESSAGE Unable to register language [html]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6069,7 +6077,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6100,7 +6109,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.224
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.472
 !MESSAGE Unable to register language [ini]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6117,7 +6126,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6148,7 +6158,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.225
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.473
 !MESSAGE Unable to register language [properties]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6165,7 +6175,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6196,7 +6207,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.226
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.474
 !MESSAGE Unable to register language [java]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6213,7 +6224,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6244,7 +6256,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.227
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.475
 !MESSAGE Unable to register language [javascriptreact]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6261,7 +6273,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6292,7 +6305,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.228
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.476
 !MESSAGE Unable to register language [javascript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6309,7 +6322,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6340,7 +6354,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.229
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.477
 !MESSAGE Unable to register language [jsx-tags]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6357,7 +6371,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6388,7 +6403,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.230
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.478
 !MESSAGE Unable to register language [less]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6405,7 +6420,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6436,7 +6452,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.231
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.480
 !MESSAGE Unable to register language [lua]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6453,7 +6469,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6484,7 +6501,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.232
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.481
 !MESSAGE Unable to register language [makefile]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6501,7 +6518,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6532,7 +6550,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.233
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.482
 !MESSAGE Unable to register language [markdown]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6549,7 +6567,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6580,7 +6599,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.234
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.483
 !MESSAGE Unable to register language [objective-c]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6597,7 +6616,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6628,7 +6648,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.235
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.484
 !MESSAGE Unable to register language [objective-cpp]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6645,7 +6665,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6676,7 +6697,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.236
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.490
 !MESSAGE Unable to register language [perl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6693,7 +6714,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6724,7 +6746,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.237
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.492
 !MESSAGE Unable to register language [perl6]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6741,7 +6763,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6772,7 +6795,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.238
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.494
 !MESSAGE Unable to register language [php]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6789,7 +6812,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6820,7 +6844,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.239
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.698
 !MESSAGE Unable to register language [powershell]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6837,7 +6861,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6868,7 +6893,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.240
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.700
 !MESSAGE Unable to register language [jade]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6885,7 +6910,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6916,7 +6942,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.241
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.704
 !MESSAGE Unable to register language [python]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6933,7 +6959,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -6964,7 +6991,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.242
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.705
 !MESSAGE Unable to register language [r]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -6981,7 +7008,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7012,7 +7040,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.244
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.708
 !MESSAGE Unable to register language [razor]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7029,7 +7057,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7060,7 +7089,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.246
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.709
 !MESSAGE Unable to register language [sass]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7077,7 +7106,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7108,7 +7138,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.247
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.711
 !MESSAGE Unable to register language [ruby]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7125,7 +7155,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7156,7 +7187,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.248
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.712
 !MESSAGE Unable to register language [rust]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7173,7 +7204,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7204,7 +7236,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.249
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.713
 !MESSAGE Unable to register language [scss]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7221,7 +7253,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7252,7 +7285,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.251
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.715
 !MESSAGE Unable to register language [shaderlab]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7269,7 +7302,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7300,7 +7334,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.252
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.716
 !MESSAGE Unable to register language [shellscript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7317,7 +7351,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7348,7 +7383,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.253
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.719
 !MESSAGE Unable to register language [sql]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7365,7 +7400,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7396,7 +7432,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.254
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.720
 !MESSAGE Unable to register language [swift]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7413,7 +7449,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7444,7 +7481,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.255
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.722
 !MESSAGE Unable to register language [typescript]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7461,7 +7498,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7492,7 +7530,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.256
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.723
 !MESSAGE Unable to register language [typescriptreact]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7509,7 +7547,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7540,7 +7579,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.257
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.724
 !MESSAGE Unable to register language [vb]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7557,7 +7596,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7588,7 +7628,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.259
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.725
 !MESSAGE Unable to register language [vue]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7605,7 +7645,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7636,7 +7677,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.260
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.729
 !MESSAGE Unable to register language [vue-html]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7653,7 +7694,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7684,7 +7726,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.261
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.733
 !MESSAGE Unable to register language [vue-postcss]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7701,7 +7743,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7732,7 +7775,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.262
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.741
 !MESSAGE Unable to register language [xml]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7749,7 +7792,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7780,7 +7824,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.264
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.757
 !MESSAGE Unable to register language [xsl]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7797,7 +7841,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7828,7 +7873,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.265
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.796
 !MESSAGE Unable to register language [yaml]
 !STACK 0
 java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
@@ -7845,7 +7890,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7876,13 +7922,109 @@ java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.new
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:25.282
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.842
+!MESSAGE Unable to register language [jsonc]
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.createEditorDescriptor(LanguagesService.java:1198)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.register(LanguagesService.java:728)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.registerLanguages(LanguagesService.java:304)
+	at com.genuitec.eclipse.code.ui.CodeService.supportedLanguagesAdded(CodeService.java:909)
+	at com.genuitec.eclipse.code.core.engine.EclipseAPI.supportedLanguagesAdded(EclipseAPI.java:439)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.genuitec.eclipse.code.core.engine.SessionHandler$RPCObjectType$1.process(SessionHandler.java:1024)
+	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
+	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
+	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.access$100(AnnotatedEndpoint.java:87)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint$WholeHandler$1.onMessage(AnnotatedEndpoint.java:633)
+	at org.glassfish.tyrus.core.TyrusSession.notifyMessageHandlers(TyrusSession.java:576)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onMessage(TyrusEndpointWrapper.java:879)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onMessage(TyrusWebSocket.java:216)
+	at org.glassfish.tyrus.core.frame.TextFrame.respond(TextFrame.java:139)
+	at org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:807)
+	at org.glassfish.tyrus.core.TyrusWebSocketEngine$TyrusReadHandler.handle(TyrusWebSocketEngine.java:562)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter$ProcessTask.execute(GrizzlyServerFilter.java:379)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:114)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter.handleRead(GrizzlyServerFilter.java:215)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.844
+!MESSAGE Unable to register language [code-runner-output]
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Constructor.newInstance(Object[])" because "this._editorDescriptorConstructor" is null
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.createEditorDescriptor(LanguagesService.java:1198)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.register(LanguagesService.java:728)
+	at com.genuitec.eclipse.code.ui.languages.LanguagesService.registerLanguages(LanguagesService.java:304)
+	at com.genuitec.eclipse.code.ui.CodeService.supportedLanguagesAdded(CodeService.java:909)
+	at com.genuitec.eclipse.code.core.engine.EclipseAPI.supportedLanguagesAdded(EclipseAPI.java:439)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.genuitec.eclipse.code.core.engine.SessionHandler$RPCObjectType$1.process(SessionHandler.java:1024)
+	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
+	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
+	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
+	at jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.access$100(AnnotatedEndpoint.java:87)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint$WholeHandler$1.onMessage(AnnotatedEndpoint.java:633)
+	at org.glassfish.tyrus.core.TyrusSession.notifyMessageHandlers(TyrusSession.java:576)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onMessage(TyrusEndpointWrapper.java:879)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onMessage(TyrusWebSocket.java:216)
+	at org.glassfish.tyrus.core.frame.TextFrame.respond(TextFrame.java:139)
+	at org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:807)
+	at org.glassfish.tyrus.core.TyrusWebSocketEngine$TyrusReadHandler.handle(TyrusWebSocketEngine.java:562)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter$ProcessTask.execute(GrizzlyServerFilter.java:379)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:114)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter.handleRead(GrizzlyServerFilter.java:215)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-22 23:25:36.957
 !MESSAGE Unable to register supported languages as EditorDescriptor service utilities are not available
 
-!ENTRY com.genuitec.eclipse.code.core 4 0 2022-04-20 23:46:25.645
-!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @2ed26f6e
+!ENTRY com.genuitec.eclipse.code.core 4 0 2022-04-22 23:25:38.269
+!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @4b5f2f73
 !STACK 0
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @2ed26f6e
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @4b5f2f73
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
@@ -7909,7 +8051,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -7940,10 +8082,10 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.core 4 0 2022-04-20 23:46:25.666
-!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @2ed26f6e
+!ENTRY com.genuitec.eclipse.code.core 4 0 2022-04-22 23:25:38.570
+!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @4b5f2f73
 !STACK 0
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @2ed26f6e
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @4b5f2f73
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
@@ -7970,7 +8112,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -8001,10 +8143,10 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY com.genuitec.eclipse.code.core 4 0 2022-04-20 23:46:29.518
-!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @2ed26f6e
+!ENTRY com.genuitec.eclipse.code.core 4 0 2022-04-22 23:25:41.867
+!MESSAGE Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @4b5f2f73
 !STACK 0
-java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @2ed26f6e
+java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @4b5f2f73
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
 	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
@@ -8031,7 +8173,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleRequest(SessionHandler.java:824)
 	at com.genuitec.eclipse.code.core.engine.EngineService.handleMessage(EngineService.java:976)
 	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onMessage(EngineServerEndpoint.java:46)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
@@ -8062,7 +8204,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make field private fina
 	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-!ENTRY org.eclipse.core.jobs 4 2 2022-04-20 23:46:30.269
+!ENTRY org.eclipse.core.jobs 4 2 2022-04-22 23:25:41.999
 !MESSAGE An internal error occurred during: "Store supported languages".
 !STACK 0
 java.lang.NullPointerException: Cannot enter synchronized block because "this.supportedLanguages" is null
@@ -8070,7 +8212,7 @@ java.lang.NullPointerException: Cannot enter synchronized block because "this.su
 	at com.genuitec.eclipse.code.ui.languages.LanguagesService$2.run(LanguagesService.java:315)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-20 23:46:48.521
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2022-04-23 00:01:52.990
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.code.ui.CodeUI.stop() of bundle com.genuitec.eclipse.code.ui.
@@ -8119,15 +8261,3 @@ java.lang.NullPointerException: Cannot enter synchronized block because "this.su
 	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-
-!ENTRY org.eclipse.core.jobs 2 2 2022-04-20 23:46:50.148
-!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.code.core.extensions.ExtensionsService$2
-
-!ENTRY org.eclipse.core.jobs 2 2 2022-04-20 23:46:50.149
-!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.code.core.extensions.ExtensionsService$2
-
-!ENTRY org.eclipse.core.jobs 2 2 2022-04-20 23:46:50.150
-!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.code.core.extensions.ExtensionsService$2
-
-!ENTRY org.eclipse.core.jobs 2 2 2022-04-20 23:46:50.150
-!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.code.core.engine.EngineService$4
