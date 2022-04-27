@@ -30,7 +30,7 @@ public class JavaGenerics {
                 count++;
         }
 
-        if(count > 1)System.out.println("Method overloading is not allowed!");
+        if(count > 1)System.out.println("Method overloading is not allowed!!!");
  
     }
 }
