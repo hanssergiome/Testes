@@ -24,6 +24,8 @@ String dayOfWeek = cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Local
         }
   }
 
+	
+	
 	public class Solution {
 		public static void main(String[] args) throws IOException {
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
