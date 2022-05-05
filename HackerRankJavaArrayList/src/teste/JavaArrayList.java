@@ -29,6 +29,7 @@ public class JavaArrayList {
             }else{
                     System.out.println("ERROR!");
                     sc.close();
+                    System.out.println();
                 }
         }
     }
