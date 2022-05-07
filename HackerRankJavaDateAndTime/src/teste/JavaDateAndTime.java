@@ -5,27 +5,20 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Calendar;
-import java.util.Locale;
 
 import javax.naming.spi.DirStateFactory.Result;
 
-class JavaDateAndTime {
+public static String findDay(int month,int day,int year){
+	
+Calendar cal=Calendar.getInstance();cal.set(Calendar.MONTH,month-1);{
+cal.set(Calendar.DAY_OF_MONTH,day);cal.set(Calendar.YEAR,year);
+String dayOfWeek=cal.getDisplayName(Calendar.DAY_OF_WEEK,Calendar.LONG,Locale.US).toUpperCase();return dayOfWeek;
 
-	public static void main(String[] args) {
-        public static String findDay(int month, int day, int year) {
-        Calendar cal = Calendar.getInstance();
-        cal.set(Calendar.MONTH,month-1);
-        cal.set(Calendar.DAY_OF_MONTH,day);
-        cal.set(Calendar.YEAR,year);
-String dayOfWeek = cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.US).toUpperCase();
-        return dayOfWeek;
-        
-        }
-  }
+}
+}
 
-	public class Solution {
-		public static void main(String[] args) throws IOException {
+public class JavaDateAndTime {
+	public static void main(String[] args) throws IOException {
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 			BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
@@ -43,5 +36,5 @@ String dayOfWeek = cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Local
 			bufferedReader.close();
 			bufferedWriter.close();
 		}
-	}
+}
 }

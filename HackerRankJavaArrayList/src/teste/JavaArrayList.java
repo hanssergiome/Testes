@@ -5,10 +5,12 @@ import java.util.Scanner;
 
 public class JavaArrayList {
 
+	@SuppressWarnings("removal")
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		int numLines = Integer.parseInt(sc.nextLine());
+		@SuppressWarnings("rawtypes")
 		ArrayList<ArrayList> listArray = new ArrayList<ArrayList>();
 		for (int i = 0; i < numLines; i++) {
 			int numOfIntegers = sc.nextInt();
