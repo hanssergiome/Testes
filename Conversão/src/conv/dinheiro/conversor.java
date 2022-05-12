@@ -2,13 +2,12 @@ package conv.dinheiro;
 
 public class conversor {
 
-public float convdolar (float dolar, float vreais) {
-		
+	public float convdolar(float dolar, float vreais) {
+
 		float resultado;
-		resultado = dolar*vreais;
+		resultado = dolar * vreais;
 		return resultado;
-		
+
 	}
-	
-	
+
 }
