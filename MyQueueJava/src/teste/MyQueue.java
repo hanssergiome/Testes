@@ -3,9 +3,7 @@ package teste;
 import java.util.PriorityQueue;
 
 public class MyQueue {
-
 	
-
 	public class Main {
 		public static void main(String[] args)
 		{
