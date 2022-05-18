@@ -17,7 +17,7 @@ String dayOfWeek = cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Local
     return dayOfWeek;
 }
 }
-s
+
 
 public class JavaDateAndTime {
 	public static void main(String[] args) throws IOException {
