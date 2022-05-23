@@ -1,5 +1,7 @@
 package teste;
 
+import java.util.Scanner;
+
 public class StringToken {
 	
 	    public static void main(String[] args) {
@@ -14,7 +16,10 @@ public class StringToken {
 	                 numTokens++;
 	             
 	         System.out.println(numTokens);
-	        
+	         for (int i=0; i<tokens.length;++i)
+	             if (tokens[i].length() > 0)
+	                 System.out.println(tokens[i]);
+	    }
+	
 
-}
 }
