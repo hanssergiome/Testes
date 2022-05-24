@@ -19,6 +19,9 @@ public class StringToken {
 	         for (int i=0; i<tokens.length;++i)
 	             if (tokens[i].length() > 0)
 	                 System.out.println(tokens[i]);
+	         
+	         sc.close();
+	         
 	    }
 	
 
