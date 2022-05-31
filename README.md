@@ -1,1 +1,1 @@
-# Repositório para programas testes, onde exercito meus conhecimentos
+# Repositório para programas testes principalmente desafios do HackerRanks
