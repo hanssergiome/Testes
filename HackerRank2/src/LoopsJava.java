@@ -3,18 +3,15 @@ import java.util.Scanner;
 public class LoopsJava {
 
 	public static void main(String[] args) {
-		
-		    	
-		        Scanner sc = new Scanner(System.in);
-		        int a = sc.nextInt();
 
-		        for(int i = 1; i <= 10; i++){
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
 
-		            System.out.printf("%d x %d = %d%n", a, i, a*i);
-		        }
-		    
-		
-		    }
+		for (int i = 1; i <= 10; i++) {
+
+			System.out.printf("%d x %d = %d%n", a, i, a * i);
+		}
+		sc.close();
+
 	}
-	
-
+}
