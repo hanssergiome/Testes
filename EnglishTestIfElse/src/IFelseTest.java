@@ -27,13 +27,13 @@ public class IFelseTest {
 			System.out.println("Weird");
 
 		}
-		
-		else if (a>20) {
-			
-			System.out.println("Not Weird");
-			
-		}
 
+		else if (a > 20) {
+
+			System.out.println("Not Weird");
+
+		}
+		sc.close();
 	}
 
 }
