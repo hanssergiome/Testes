@@ -2,22 +2,23 @@ package teste;
 
 import java.util.Scanner;
 
-public class JavaRegex {
+class Solution {
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		while (in.hasNext()) {
-			String IP = in.next();
+		Scanner sc = new Scanner(System.in);
+		while (sc.hasNext()) {
+			String IP = sc.next();
+
 			System.out.println(IP.matches(new MyRegex().pattern));
+			sc.close();
 		}
 
 	}
+}
 
-	class MyRegex {
+class MyRegex {
 
-		String ip0to255 = "(\\d{1,2}||(0|1)\\d{2}||2[0-4]\\d||25[0-5])";
+	String ip0to255 = "(\\d{1,2}||(0|1)\\d{2}||2[0-4]\\d||25[0-5])";
 
-		public String pattern = ip0to255 + "\\." + ip0to255 + "\\." + ip0to255 + "\\." + ip0to255;
-
-	}
+	public String pattern = ip0to255 + "\\." + ip0to255 + "\\." + ip0to255 + "\\." + ip0to255;
 }
